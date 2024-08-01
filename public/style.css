@@ -83,21 +83,20 @@
   width: 149px;
 }
 .container .left-banner .header .container-hero .card-1 {
-  top: 313px;
-  left: -5px;
+  top: 45.49%;
+  left: -0.71%;
 }
 .container .left-banner .header .container-hero .card-2 {
-  top: 166px;
-  left: 376px;
+  top: 24.96%;
+  left: 56.54%;
 }
 .container .left-banner .group-card {
   display: flex;
+  height: auto;
 }
-.container .left-banner .group-card .card1,
-.container .left-banner .group-card .card2,
-.container .left-banner .group-card .card3 {
-  width: 300px;
-  height: 83px;
+.container .left-banner .group-card .card {
+  width: 31.12%;
+  height: 100%;
   border: 1px solid var(--border-color);
   box-shadow: 8px 8px var(--bg-color-btn);
   border-radius: 16px;
@@ -107,16 +106,12 @@
   align-items: center;
   gap: 16px;
 }
-.container .left-banner .group-card .card1 p.title,
-.container .left-banner .group-card .card2 p.title,
-.container .left-banner .group-card .card3 p.title {
+.container .left-banner .group-card .card p.title {
   font-weight: 600;
   font-size: 22px;
   line-height: 26.4px;
 }
-.container .left-banner .group-card .card1 p.content,
-.container .left-banner .group-card .card2 p.content,
-.container .left-banner .group-card .card3 p.content {
+.container .left-banner .group-card .card p.content {
   font-weight: 400;
   font-size: 14px;
   line-height: 16.8px;
@@ -134,9 +129,7 @@
   margin-top: -31px;
   display: flex;
 }
-.container .right-banner .img1,
-.container .right-banner .img2,
-.container .right-banner .img3 {
+.container .right-banner .image {
   border: 1px solid var(--bg-color-btn);
   border-radius: 32px;
   overflow: hidden;
@@ -149,19 +142,23 @@
 
 @media only screen and (min-device-width: 1440px) {
   .container {
-    max-width: 1312px;
+    width: 91.11%;
     margin-top: 94px;
     justify-content: space-between;
+    height: 850px;
   }
   .container .left-banner {
-    max-width: 1070px;
+    width: 81.55%;
+  }
+  .container .left-banner .header {
+    justify-content: space-between;
   }
   .container .left-banner .header .content {
-    max-width: 363px;
+    max-width: calc(100% - 665px);
     margin-top: 125px;
   }
   .container .left-banner .header .content .title {
-    max-width: 359px;
+    max-width: 98.89%;
   }
   .container .left-banner .header .content .title .small-title {
     font-size: 18px;
@@ -199,50 +196,49 @@
     height: 688px;
   }
   .container .left-banner .header .container-hero .hero-image {
-    width: 499.85px;
-    height: 686.3px;
+    width: 75.17%;
+    height: 99.75%;
   }
   .container .left-banner .header .container-hero .hero-image .contain-img {
-    width: 436.38px;
-    height: 610.93px;
-    top: 42.9px;
-    left: 30.69px;
+    width: 87.3%;
+    height: 89.02%;
+    top: 6.25%;
+    left: 6.18%;
   }
   .container .left-banner .group-card {
-    width: 980px;
+    width: 93.1%;
     margin: 48px 0 80px 0;
     justify-content: space-between;
   }
   .container .right-banner {
     flex-direction: column;
     height: 834px;
+    gap: 24px;
     justify-content: space-between;
   }
-  .container .right-banner .img1,
-  .container .right-banner .img2,
-  .container .right-banner .img3 {
-    height: 262px;
+  .container .right-banner .image {
+    height: 31.41%;
     width: 200px;
   }
 }
 @media only screen and (max-device-width: 1439px) and (min-device-width: 1080px) {
   .container {
-    max-width: 1070px;
+    max-width: 95.07%;
     margin: 40px auto;
     flex-direction: column;
   }
   .container .left-banner {
-    width: 1070px;
+    width: 100%;
   }
   .container .left-banner .header {
     justify-content: space-between;
   }
   .container .left-banner .header .content {
-    max-width: 363px;
+    max-width: calc(100% - 665px);
     margin-top: 75px;
   }
   .container .left-banner .header .content .title {
-    max-width: 359px;
+    max-width: 98.07%;
   }
   .container .left-banner .header .content .title .small-title {
     font-size: 18px;
@@ -276,68 +272,66 @@
     right: -98px;
   }
   .container .left-banner .header .container-hero {
-    width: 600px;
-    height: 780px;
+    width: 665px;
+    height: 688px;
   }
   .container .left-banner .header .container-hero .hero-image {
-    width: 599.85px;
-    height: 780px;
+    width: 75.17%;
+    height: 99.75%;
+    margin-right: 0;
   }
   .container .left-banner .header .container-hero .hero-image .contain-img {
-    width: 536.38px;
-    height: 700px;
-    top: 42.9px;
-    left: 30.69px;
+    width: 89.41%;
+    height: 89.74%;
+    top: 5.25%;
+    left: 5.58%;
   }
   .container .left-banner .header .container-hero .card-1 {
-    top: 430px;
-    left: -55px;
+    top: 62.5%;
+    left: -0.05%;
   }
   .container .left-banner .header .container-hero .card-2 {
-    top: 545px;
-    left: -55px;
+    top: 79.22%;
+    left: -0.05%;
   }
   .container .left-banner .group-card {
-    width: 1070px;
+    width: 100%;
     margin: 48px auto 0px auto;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     gap: 20px;
   }
-  .container .left-banner .group-card .card1,
-  .container .left-banner .group-card .card2,
-  .container .left-banner .group-card .card3 {
-    width: 340px;
+  .container .left-banner .group-card .card {
+    width: 343.3333333333px px;
   }
   .container .right-banner {
     margin: 31px auto 80px auto;
-    width: 1070px;
+    width: 100%;
     flex-direction: row;
     justify-content: space-between;
   }
-  .container .right-banner .img1,
-  .container .right-banner .img2,
-  .container .right-banner .img3 {
-    height: 442px;
-    width: 340px;
+  .container .right-banner .image {
+    height: auto;
+    width: 31.78%;
   }
 }
 @media screen and (max-device-width: 1079px) and (min-device-width: 740px) {
   .container {
-    max-width: 100%;
+    max-width: 95.3%;
     margin: 40px auto;
     flex-direction: column;
   }
   .container .left-banner {
     margin: 0 auto;
-    width: 720px;
+    width: 95.3%;
   }
   .container .left-banner .header {
     flex-direction: column;
     justify-content: space-between;
   }
   .container .left-banner .header .content {
-    max-width: 700px;
+    max-width: 100%;
     margin-top: 40px;
   }
   .container .left-banner .header .content .title {
@@ -349,7 +343,7 @@
     font-weight: 400;
   }
   .container .left-banner .header .content .title p.title {
-    font-size: 40px;
+    font-size: 45px;
     line-height: 50px;
     font-weight: 600;
   }
@@ -369,10 +363,8 @@
     border-radius: 40px;
   }
   .container .left-banner .header .content .bigstar {
-    max-width: 139px;
-    max-height: 150px;
-    bottom: -69.5px;
-    right: 0px;
+    bottom: -25%;
+    right: 0;
   }
   .container .left-banner .header .container-hero {
     width: 600px;
@@ -380,12 +372,12 @@
     margin: 30px auto;
   }
   .container .left-banner .header .container-hero .hero-image {
-    width: 599.85px;
-    height: 780.3px;
+    width: 98.88%;
+    height: 100%;
   }
   .container .left-banner .header .container-hero .hero-image .contain-img {
-    width: 536.38px;
-    height: 700.93px;
+    width: 88.83%;
+    height: 89.74%;
     top: 42.9px;
     left: 30.69px;
   }
@@ -402,33 +394,29 @@
     left: -55px;
   }
   .container .left-banner .group-card {
-    width: 720px;
+    width: 100%;
     margin: 0 auto 0px auto;
-    flex-direction: column;
+    display: inline-block;
   }
-  .container .left-banner .group-card .card1,
-  .container .left-banner .group-card .card2,
-  .container .left-banner .group-card .card3 {
-    width: 300px;
+  .container .left-banner .group-card .card {
+    width: 50%;
     margin-top: 20px;
   }
   .container .left-banner .group-card .card2 {
-    margin-left: 220px;
+    margin-left: 25%;
   }
   .container .left-banner .group-card .card3 {
-    margin-left: 420px;
+    margin-left: 50%;
   }
   .container .right-banner {
     margin: 51px auto 80px auto;
-    width: 720px;
+    width: 100%;
     flex-direction: row;
     justify-content: space-between;
   }
-  .container .right-banner .img1,
-  .container .right-banner .img2,
-  .container .right-banner .img3 {
-    height: 282px;
-    width: 220px;
+  .container .right-banner .image {
+    height: auto;
+    width: 33%;
   }
 }
 @media screen and (max-device-width: 740px) and (min-device-width: 420px) {
@@ -489,50 +477,46 @@
     margin: 20px auto;
   }
   .container .left-banner .header .container-hero .hero-image {
-    width: 410px;
-    height: 600px;
+    width: 100%;
+    height: 100%;
   }
   .container .left-banner .header .container-hero .hero-image .contain-img {
-    width: 350px;
-    height: 520px;
-    top: 42.9px;
-    left: 30.69px;
+    width: 85.37%;
+    height: 86.67%;
+    top: 7.46%;
+    left: 7.04%;
   }
   .container .left-banner .header .container-hero .card-review {
-    width: 320px;
+    width: 78.05%;
     opacity: 0.9;
   }
   .container .left-banner .header .container-hero .card-1 {
-    top: 300px;
-    left: -20px;
+    top: 50%;
+    left: -4.88%;
   }
   .container .left-banner .header .container-hero .card-2 {
-    top: 415px;
-    left: -20px;
+    top: 69.17%;
+    left: -4.88%;
   }
   .container .left-banner .group-card {
-    width: 420px;
+    width: 95%;
     margin: 0 auto 0px auto;
-    flex-direction: column;
+    display: block;
   }
-  .container .left-banner .group-card .card1,
-  .container .left-banner .group-card .card2,
-  .container .left-banner .group-card .card3 {
+  .container .left-banner .group-card .card {
     width: 95%;
     margin-top: 20px;
   }
   .container .right-banner {
     margin: 51px auto 80px auto;
-    width: 220px;
+    width: 95%;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
   }
-  .container .right-banner .img1,
-  .container .right-banner .img2,
-  .container .right-banner .img3 {
-    height: 440px;
-    width: 350px;
+  .container .right-banner .image {
+    height: auto;
+    width: 80%;
     margin-top: 20px;
   }
 }
@@ -593,11 +577,11 @@
   }
   .container .left-banner .header .container-hero .hero-image {
     width: 95%;
-    height: 450px;
+    height: 100%;
   }
   .container .left-banner .header .container-hero .hero-image .contain-img {
     width: 95%;
-    height: 430px;
+    height: 95.57%;
     top: 2%;
     left: 3%;
   }
@@ -618,24 +602,20 @@
     margin: 0 auto 0px auto;
     flex-direction: column;
   }
-  .container .left-banner .group-card .card1,
-  .container .left-banner .group-card .card2,
-  .container .left-banner .group-card .card3 {
+  .container .left-banner .group-card .card {
     width: 95%;
     margin-top: 20px;
   }
   .container .right-banner {
     margin: 51px auto 80px auto;
-    width: 100%;
+    width: 95%;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
   }
-  .container .right-banner .img1,
-  .container .right-banner .img2,
-  .container .right-banner .img3 {
-    height: 400px;
-    width: 95%;
+  .container .right-banner .image {
+    height: auto;
+    width: 80%;
     margin-top: 20px;
   }
 }
